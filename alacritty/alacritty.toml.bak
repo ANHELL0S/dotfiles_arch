@@ -1,0 +1,29 @@
+import = ["/home/angelo/.config/alacritty/colors.toml", "/home/angelo/.config/alacritty/fonts.toml"]
+live_config_reload = true
+
+[cursor]
+unfocused_hollow = true
+
+[cursor.style]
+blinking = "On"
+shape = "Beam"
+
+[env]
+TERM = "alacritty"
+WINIT_X11_SCALE_FACTOR = "1.0"
+
+[window]
+decorations = "full"
+dynamic_title = true
+#history = 10000
+#multiplier = 3
+opacity = 1
+startup_mode = "Windowed"
+
+[window.dimensions]
+columns = 82
+lines = 24
+
+[window.padding]
+x = 6
+y = 12
